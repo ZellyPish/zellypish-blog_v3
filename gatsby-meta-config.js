@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `zellypish.dev`,
+  description: `심해생존기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://www.zellypish.dev`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,16 +11,16 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `김종찬`,
     bio: {
-      role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      role: `서비스 개발자`,
+      description: ['우아하고 싶은', '학습이 빠른', '호기심이 넘치는'],
+      thumbnail: 'memoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      github: `https://github.com/zellypish`, // `https://github.com/zoomKoding`,
+      linkedIn: `https://www.linkedin.com/in/jongchan-kim-95608a1bb`, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      email: `ehxhfl21@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -43,12 +43,30 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '2005',
+        activity: '정보올림피아드 초등부 지역본선 최우수상',
+      },
+      {
+        date: '2006',
+        activity: '정보올림피아드 중등부 지역본선 동상',
+      },
+      {
+        date: '2007',
+        activity: '정보올림피아드 중등부 지역본선 은상',
+      },
+      {
+        date: '2019.12 ~',
+        activity: '개발 시작',
+      },
+      {
+        date: '2020.09 ~ 2020.12',
+        activity: '교육용 컨텐츠 퍼블리싱',
+      },
+      {
+        date: '2021.03 ~',
+        activity: '씨브이쓰리 개발자',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          appStore: 'https://apps.apple.com/kr/app/id1486264417',
         },
       },
     ],
@@ -72,15 +90,13 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: '라방바',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+          '애플리케이션 iOS파트와 백오피스 프론트엔드 개발을 전담하였고, nodejs 백엔드 개발에도 참여하였습니다.',
+        techStack: ['swift', 'react', 'nodejs'],
+        thumbnailUrl: 'labangba.png',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          appStore: 'https://apps.apple.com/kr/app/id1486264417',
         },
       },
     ],
