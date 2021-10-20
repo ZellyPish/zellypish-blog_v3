@@ -47,10 +47,6 @@ module.exports = {
         activity: '정보올림피아드 초등부 지역본선 최우수상',
       },
       {
-        date: '2006',
-        activity: '정보올림피아드 중등부 지역본선 동상',
-      },
-      {
         date: '2007',
         activity: '정보올림피아드 중등부 지역본선 은상',
       },
@@ -92,7 +88,7 @@ module.exports = {
       {
         title: '라방바',
         description:
-          '애플리케이션 iOS파트와 백오피스 프론트엔드 개발을 전담하였고, nodejs 백엔드 개발에도 참여하였습니다.',
+          '애플리케이션 iOS파트와 백오피스 프론트엔드 개발을 전담하였고, express.js 백엔드 개발에도 참여하였습니다.',
         techStack: ['swift', 'react', 'nodejs'],
         thumbnailUrl: 'labangba.png',
         links: {
