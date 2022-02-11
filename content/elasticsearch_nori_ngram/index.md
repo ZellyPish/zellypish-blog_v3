@@ -3,10 +3,11 @@ emoji: 🔍
 title: Elasticsearch nori + ngram 토크나이징
 date: '2022-02-11 21:30:00'
 author: zellypish
-tags: blog, Elasticsearch
+tags: 
+  - blog
+  - Elasticsearch
 categories: Troubleshooting
 ---
-
 ## Elasticsearch에서 nori와 ngram을 동시에 적용하다가...
 
 Elasticsearch를 이용해 검색 서비스를 만들다가 이상한 점을 발견했습니다.
