@@ -14,7 +14,7 @@ module.exports = {
     name: `김종찬`,
     bio: {
       role: `서비스 개발자`,
-      description: ['우아하고 싶은', '학습이 빠른', '호기심이 넘치는'],
+      description: ['우아하고 싶은', '끈기있는', '조금은 게으른'],
       thumbnail: 'memoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
@@ -43,27 +43,25 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2005',
-        activity: '정보올림피아드 초등부 지역본선 최우수상',
+        date: '2021.03 ~',
+        activity: '씨브이쓰리 개발자',
+        links: {
+          post: 'https://datalab.labangba.com',
+          demo: 'https://labangba.com'
+        },
+      },
+      
+      {
+        date: '2020.09 ~ 2020.12',
+        activity: '상록에스 교육용 컨텐츠 퍼블리싱',
       },
       {
         date: '2007',
         activity: '정보올림피아드 중등부 지역본선 은상',
       },
       {
-        date: '2019.12 ~',
-        activity: '개발 시작',
-      },
-      {
-        date: '2020.09 ~ 2020.12',
-        activity: '교육용 컨텐츠 퍼블리싱',
-      },
-      {
-        date: '2021.03 ~',
-        activity: '씨브이쓰리 개발자',
-        links: {
-          appStore: 'https://apps.apple.com/kr/app/id1486264417',
-        },
+        date: '2005',
+        activity: '정보올림피아드 초등부 지역본선 최우수상',
       },
     ],
 
@@ -85,16 +83,20 @@ module.exports = {
       },
       // ========================================================
       // ========================================================
-      {
-        title: '라방바',
-        description:
-          '애플리케이션 iOS파트와 백오피스 프론트엔드 개발을 전담하였고, express.js 백엔드 개발에도 참여하였습니다.',
-        techStack: ['swift', 'react', 'nodejs'],
-        thumbnailUrl: 'labangba.png',
-        links: {
-          appStore: 'https://apps.apple.com/kr/app/id1486264417',
-        },
-      },
+      // {
+      //   title: '라방바 데이터랩',
+      //   description: ''
+      // },
+      // {
+      //   title: '라방바',
+      //   description:
+      //     '애플리케이션 iOS파트와 백오피스 프론트엔드 개발을 전담하였고, express.js 백엔드 개발에도 참여하였습니다.',
+      //   techStack: ['swift', 'react', 'nodejs'],
+      //   thumbnailUrl: 'labangba.png',
+      //   links: {
+      //     appStore: 'https://apps.apple.com/kr/app/id1486264417',
+      //   },
+      // },
     ],
   },
 };
